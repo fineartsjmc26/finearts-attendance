@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "users": [
+    {
+      "id": 1,
+      "name": "Administrator",
+      "username": "admin",
+      "passwordHash": "$2a$10$teGRYK8QwSS7uLaNP8RN5Os/XKViPsV8vzTb617so7pLQqhelb2Fi",
+      "role": "Admin"
+    }
+  ],
+  "fieldDefs": [
+    {
+      "key": "name",
+      "label": "Name",
+      "type": "text",
+      "locked": true,
+      "visible": true
+    },
+    {
+      "key": "year",
+      "label": "Year",
+      "type": "select",
+      "options": [
+        "I Year",
+        "II Year",
+        "III Year"
+      ],
+      "locked": false,
+      "visible": true
+    },
+    {
+      "key": "section",
+      "label": "Section",
+      "type": "select",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "locked": false,
+      "visible": true
+    },
+    {
+      "key": "dept",
+      "label": "Department",
+      "type": "text",
+      "locked": false,
+      "visible": true
+    },
+    {
+      "key": "mobile",
+      "label": "Mobile Number",
+      "type": "text",
+      "locked": false,
+      "visible": true
+    },
+    {
+      "key": "events",
+      "label": "Events",
+      "type": "multiselect",
+      "locked": false,
+      "visible": true
+    },
+    {
+      "key": "financeType",
+      "label": "Finance Type",
+      "type": "select",
+      "options": [
+        "Aided",
+        "Self Finance"
+      ],
+      "locked": false,
+      "visible": true
+    }
+  ],
+  "students": [],
+  "attendance": []
+}
